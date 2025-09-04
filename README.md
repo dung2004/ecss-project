@@ -1,31 +1,19 @@
-<<<<<<< HEAD
-# ecss-project
-=======
-# EcssProject
+# ecss-client
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.20.
+Angular frontend skeleton for eCSS project.
 
-## Development server
+## Setup
+1. Install Node LTS
+2. npm install
+3. Adjust API URL in src/environments/environment.ts (default: http://localhost:5000/api)
+4. ng serve
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Structure
+- src/app/core: ApiService, interceptors
+- src/app/repos: plain TS repositories (not registered to DI)
+- src/app/services: Injectable services (use repos internally)
+- src/app/modules: cart / orders modules (lazy loaded)
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
->>>>>>> 407f786 (initial commit)
+## Git
+git remote add origin https://github.com/dung2004/ecss-project.git
+git push -u origin main
