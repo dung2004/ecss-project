@@ -21,7 +21,7 @@ Angular frontend skeleton for eCSS project.
 5. git checkout -b feature/tên-tính-năng (tạo nhánh mới, để sau sẽ push hoặc commit với main sau)
 6. git add .
 git commit -m "Mô tả thay đổi"
-git push -u origin feature/tên-tính-năng
+git push -u origin master/develop/feature/<tên feature>
 
 
 Chú ý: main là nhánh bảo vệ, không ai được push trực tiếp. Để có lỗi thì sửa ở nhánh mà mọi người tạo ở bước 5.
