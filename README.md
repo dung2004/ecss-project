@@ -1,4 +1,4 @@
-# ecss-client
+# ecss-project
 
 Angular frontend skeleton for eCSS project.
 
