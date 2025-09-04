@@ -13,6 +13,15 @@ Angular frontend skeleton for eCSS project.
 - src/app/services: Injectable services (use repos internally)
 - src/app/modules: cart / orders modules (lazy loaded)
 
-## Git
-git remote add origin https://github.com/dung2004/ecss-project.git
-git push -u origin main
+## Làm việc với GIT
+1. git clone https://github.com/dung2004/ecss-project.git
+2. cd ecss-project
+3. git checkout main
+4. git pull origin main (kéo hết file từ main về máy)
+5. git checkout -b feature/tên-tính-năng (tạo nhánh mới, để sau sẽ push hoặc commit với main sau)
+6. git add .
+git commit -m "Mô tả thay đổi"
+git push -u origin feature/tên-tính-năng
+
+
+Chú ý: main là nhánh bảo vệ, không ai được push trực tiếp. Để có lỗi thì sửa ở nhánh mà mọi người tạo ở bước 5.
