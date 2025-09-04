@@ -32,9 +32,12 @@
               }
             ],
             "styles": [
+              "src/assets/bootstrap-5.3.2/css/bootstrap.min.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/bootstrap-5.3.2/js/bootstrap.bundle.min.js"
+            ]
           },
           "configurations": {
             "production": {

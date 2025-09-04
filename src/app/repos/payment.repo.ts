@@ -1,7 +1,7 @@
 
 import { ApiService } from '../core/api.service';
 import { Observable } from 'rxjs';
-import { Payment } from '@modules/payment/payment.model';
+import { Payment } from '@modules/payment/payment.module';
 
 export class PaymentRepository {
   constructor(private api: ApiService) { }
