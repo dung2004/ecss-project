@@ -3,10 +3,9 @@
 Angular frontend skeleton for eCSS project.
 
 ## Setup
-1. Install Node LTS
+1. "Cài nodejs 20 và npm 10"
 2. npm install
-3. Adjust API URL in src/environments/environment.ts (default: http://localhost:5000/api)
-4. ng serve
+3. ng serve
 
 ## Structure
 - src/app/core: ApiService, interceptors
